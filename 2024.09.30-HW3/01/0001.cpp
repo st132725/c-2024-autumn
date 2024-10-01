@@ -4,7 +4,7 @@ int main(int argc, char* argv[]) {
     int n = 0;
     scanf_s("%d", &n);
     int count = 0;
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < n; ++i) {
         int c = 0;
         scanf_s("%d", &c);
         if (c == 0) {
